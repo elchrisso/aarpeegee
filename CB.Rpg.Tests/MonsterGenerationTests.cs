@@ -4,12 +4,14 @@ using Xunit;
 
 namespace CB.Rpg.Tests
 {
-    class MonsterGenerationTests
+    public class MonsterGenerationTests
     {
         [Fact]
         public void GenerateAMonster()
         {
-            Monster newMonster = new Monster();
+            Monster newMonster = new Monster("bob", 7, 6, 2, 12);
+
+            Assert.Equal(newMonster.Name, "bob");
         }
     }
 }
