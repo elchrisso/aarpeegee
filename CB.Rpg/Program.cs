@@ -8,9 +8,7 @@ namespace CB.Rpg
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        /// laptop test
         [STAThread]
         static void Main()
         {
