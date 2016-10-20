@@ -9,6 +9,7 @@ namespace CB.Rpg
     static class Program
     {
         /// laptop test
+        /// //desktop test
         [STAThread]
         static void Main()
         {
